@@ -1,0 +1,12 @@
+teleop_twist_joy:
+  ros__parameters:
+    axis_linear: 1        # axes[1] = tiến/lùi
+    scale_linear: 0.5
+
+    axis_angular: 0       # axes[0] = xoay trái/phải
+    scale_angular: 1.5
+
+    enable_button: 5      # nút R1 để kích hoạt điều khiển (thử nếu 4 không hoạt động)
+    enable_turbo_button: 4 # nút R2 để kích hoạt chế độ turbo (tăng tốc)
+    turbo_scale_linear: 1.0
+    turbo_scale_angular: 2.0
