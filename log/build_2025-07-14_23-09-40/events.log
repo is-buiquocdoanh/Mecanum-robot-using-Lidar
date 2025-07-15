@@ -1,0 +1,446 @@
+[0.000000] (-) TimerEvent: {}
+[0.001230] (mecanum_control) JobQueued: {'identifier': 'mecanum_control', 'dependencies': OrderedDict()}
+[0.005251] (mecanum_kinematics) JobQueued: {'identifier': 'mecanum_kinematics', 'dependencies': OrderedDict()}
+[0.005568] (mecanum_robot) JobQueued: {'identifier': 'mecanum_robot', 'dependencies': OrderedDict()}
+[0.005809] (scan_qos_bridge) JobQueued: {'identifier': 'scan_qos_bridge', 'dependencies': OrderedDict()}
+[0.006245] (ydlidar_ros2_driver) JobQueued: {'identifier': 'ydlidar_ros2_driver', 'dependencies': OrderedDict()}
+[0.006494] (mecanum_control) JobStarted: {'identifier': 'mecanum_control'}
+[0.096607] (-) TimerEvent: {}
+[0.147199] (mecanum_kinematics) JobStarted: {'identifier': 'mecanum_kinematics'}
+[0.196917] (-) TimerEvent: {}
+[0.235790] (mecanum_robot) JobStarted: {'identifier': 'mecanum_robot'}
+[0.297306] (-) TimerEvent: {}
+[0.326367] (scan_qos_bridge) JobStarted: {'identifier': 'scan_qos_bridge'}
+[0.397933] (-) TimerEvent: {}
+[0.501277] (-) TimerEvent: {}
+[0.603742] (-) TimerEvent: {}
+[0.706717] (-) TimerEvent: {}
+[0.808340] (-) TimerEvent: {}
+[0.909806] (-) TimerEvent: {}
+[1.011369] (-) TimerEvent: {}
+[1.112907] (-) TimerEvent: {}
+[1.214485] (-) TimerEvent: {}
+[1.316108] (-) TimerEvent: {}
+[1.417713] (-) TimerEvent: {}
+[1.519232] (-) TimerEvent: {}
+[1.620859] (-) TimerEvent: {}
+[1.722472] (-) TimerEvent: {}
+[1.823870] (-) TimerEvent: {}
+[1.925465] (-) TimerEvent: {}
+[2.026869] (-) TimerEvent: {}
+[2.128392] (-) TimerEvent: {}
+[2.229836] (-) TimerEvent: {}
+[2.331227] (-) TimerEvent: {}
+[2.432716] (-) TimerEvent: {}
+[2.534074] (-) TimerEvent: {}
+[2.635465] (-) TimerEvent: {}
+[2.736896] (-) TimerEvent: {}
+[2.838333] (-) TimerEvent: {}
+[2.939661] (-) TimerEvent: {}
+[3.040973] (-) TimerEvent: {}
+[3.143173] (-) TimerEvent: {}
+[3.244916] (-) TimerEvent: {}
+[3.346461] (-) TimerEvent: {}
+[3.447926] (-) TimerEvent: {}
+[3.549712] (-) TimerEvent: {}
+[3.651578] (-) TimerEvent: {}
+[3.753202] (-) TimerEvent: {}
+[3.854876] (-) TimerEvent: {}
+[3.956557] (-) TimerEvent: {}
+[4.058191] (-) TimerEvent: {}
+[4.159700] (-) TimerEvent: {}
+[4.261199] (-) TimerEvent: {}
+[4.362684] (-) TimerEvent: {}
+[4.464296] (-) TimerEvent: {}
+[4.565784] (-) TimerEvent: {}
+[4.667297] (-) TimerEvent: {}
+[4.768869] (-) TimerEvent: {}
+[4.870330] (-) TimerEvent: {}
+[4.971877] (-) TimerEvent: {}
+[5.073710] (-) TimerEvent: {}
+[5.175213] (-) TimerEvent: {}
+[5.276747] (-) TimerEvent: {}
+[5.378274] (-) TimerEvent: {}
+[5.479690] (-) TimerEvent: {}
+[5.581199] (-) TimerEvent: {}
+[5.682639] (-) TimerEvent: {}
+[5.784090] (-) TimerEvent: {}
+[5.885681] (-) TimerEvent: {}
+[5.987122] (-) TimerEvent: {}
+[6.088675] (-) TimerEvent: {}
+[6.190129] (-) TimerEvent: {}
+[6.291584] (-) TimerEvent: {}
+[6.393059] (-) TimerEvent: {}
+[6.494531] (-) TimerEvent: {}
+[6.596037] (-) TimerEvent: {}
+[6.697773] (-) TimerEvent: {}
+[6.799207] (-) TimerEvent: {}
+[6.900665] (-) TimerEvent: {}
+[7.002016] (-) TimerEvent: {}
+[7.103447] (-) TimerEvent: {}
+[7.205032] (-) TimerEvent: {}
+[7.307550] (-) TimerEvent: {}
+[7.410405] (-) TimerEvent: {}
+[7.512792] (-) TimerEvent: {}
+[7.614274] (-) TimerEvent: {}
+[7.715769] (-) TimerEvent: {}
+[7.817417] (-) TimerEvent: {}
+[7.918881] (-) TimerEvent: {}
+[8.020423] (-) TimerEvent: {}
+[8.121954] (-) TimerEvent: {}
+[8.223641] (-) TimerEvent: {}
+[8.325116] (-) TimerEvent: {}
+[8.426581] (-) TimerEvent: {}
+[8.527979] (-) TimerEvent: {}
+[8.629470] (-) TimerEvent: {}
+[8.730951] (-) TimerEvent: {}
+[8.832493] (-) TimerEvent: {}
+[8.934025] (-) TimerEvent: {}
+[9.035663] (-) TimerEvent: {}
+[9.137167] (-) TimerEvent: {}
+[9.238680] (-) TimerEvent: {}
+[9.340098] (-) TimerEvent: {}
+[9.441652] (-) TimerEvent: {}
+[9.543028] (-) TimerEvent: {}
+[9.644525] (-) TimerEvent: {}
+[9.745940] (-) TimerEvent: {}
+[9.847340] (-) TimerEvent: {}
+[9.948933] (-) TimerEvent: {}
+[10.050416] (-) TimerEvent: {}
+[10.151889] (-) TimerEvent: {}
+[10.253503] (-) TimerEvent: {}
+[10.355076] (-) TimerEvent: {}
+[10.456551] (-) TimerEvent: {}
+[10.558231] (-) TimerEvent: {}
+[10.660723] (-) TimerEvent: {}
+[10.757129] (scan_qos_bridge) JobProgress: {'identifier': 'scan_qos_bridge', 'progress': 'cmake'}
+[10.760947] (-) TimerEvent: {}
+[10.768686] (scan_qos_bridge) JobProgress: {'identifier': 'scan_qos_bridge', 'progress': 'build'}
+[10.777069] (scan_qos_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/robot_ws/build/scan_qos_bridge', '--', '-j4', '-l4'], 'cwd': '/home/pi/robot_ws/build/scan_qos_bridge', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.0.102 52226 22'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/pi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/pi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('TERM_PROGRAM_VERSION', '1.100.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-92d0f48d-4c79-4095-a6f1-b4eff2708e4c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'vi_VN'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/pi/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/pi/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/pi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/remote-cli:/home/pi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/pi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/pi/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts'), ('LC_ADDRESS', 'vi_VN'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/pi/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-a42bc04f42fd93d8.txt'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'vi_VN'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a48b6410c1.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/pi/robot_ws/install/ydlidar_ros2_driver:/home/pi/robot_ws/install/scan_qos_bridge:/home/pi/robot_ws/install/mecanum_robot:/home/pi/robot_ws/install/mecanum_kinematics:/home/pi/robot_ws/install/mecanum_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/pi/robot_ws/build/scan_qos_bridge'), ('SSH_CONNECTION', '192.168.0.102 52226 192.168.0.105 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/robot_ws/install/mecanum_robot/lib/python3.10/site-packages:/home/pi/robot_ws/install/mecanum_kinematics/lib/python3.10/site-packages:/home/pi/robot_ws/install/mecanum_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/robot_ws/install/ydlidar_ros2_driver:/home/pi/robot_ws/install/scan_qos_bridge:/home/pi/robot_ws/install/mecanum_robot:/home/pi/robot_ws/install/mecanum_kinematics:/home/pi/robot_ws/install/mecanum_control:/opt/ros/humble')]), 'shell': False}
+[10.863855] (-) TimerEvent: {}
+[10.966568] (-) TimerEvent: {}
+[11.069463] (-) TimerEvent: {}
+[11.173156] (-) TimerEvent: {}
+[11.275202] (-) TimerEvent: {}
+[11.379030] (-) TimerEvent: {}
+[11.482354] (-) TimerEvent: {}
+[11.585973] (-) TimerEvent: {}
+[11.695113] (-) TimerEvent: {}
+[11.798374] (-) TimerEvent: {}
+[11.906710] (-) TimerEvent: {}
+[12.009569] (-) TimerEvent: {}
+[12.112442] (-) TimerEvent: {}
+[12.216440] (-) TimerEvent: {}
+[12.319991] (-) TimerEvent: {}
+[12.397976] (scan_qos_bridge) StdoutLine: {'line': b'[100%] Built target scan_relay\n'}
+[12.420529] (-) TimerEvent: {}
+[12.522094] (-) TimerEvent: {}
+[12.625743] (-) TimerEvent: {}
+[12.684613] (scan_qos_bridge) CommandEnded: {'returncode': 0}
+[12.688015] (scan_qos_bridge) JobProgress: {'identifier': 'scan_qos_bridge', 'progress': 'install'}
+[12.725826] (-) TimerEvent: {}
+[12.805756] (scan_qos_bridge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/robot_ws/build/scan_qos_bridge'], 'cwd': '/home/pi/robot_ws/build/scan_qos_bridge', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.0.102 52226 22'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/pi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/pi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('TERM_PROGRAM_VERSION', '1.100.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-92d0f48d-4c79-4095-a6f1-b4eff2708e4c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'vi_VN'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/pi/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/pi/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/pi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/remote-cli:/home/pi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/pi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/pi/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts'), ('LC_ADDRESS', 'vi_VN'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/pi/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-a42bc04f42fd93d8.txt'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'vi_VN'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a48b6410c1.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/pi/robot_ws/install/ydlidar_ros2_driver:/home/pi/robot_ws/install/scan_qos_bridge:/home/pi/robot_ws/install/mecanum_robot:/home/pi/robot_ws/install/mecanum_kinematics:/home/pi/robot_ws/install/mecanum_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/pi/robot_ws/build/scan_qos_bridge'), ('SSH_CONNECTION', '192.168.0.102 52226 192.168.0.105 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/robot_ws/install/mecanum_robot/lib/python3.10/site-packages:/home/pi/robot_ws/install/mecanum_kinematics/lib/python3.10/site-packages:/home/pi/robot_ws/install/mecanum_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/robot_ws/install/ydlidar_ros2_driver:/home/pi/robot_ws/install/scan_qos_bridge:/home/pi/robot_ws/install/mecanum_robot:/home/pi/robot_ws/install/mecanum_kinematics:/home/pi/robot_ws/install/mecanum_control:/opt/ros/humble')]), 'shell': False}
+[12.827270] (-) TimerEvent: {}
+[12.930778] (-) TimerEvent: {}
+[12.968891] (scan_qos_bridge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.997971] (scan_qos_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/scan_qos_bridge/lib/scan_qos_bridge/scan_relay\n'}
+[13.010721] (scan_qos_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/launch\n'}
+[13.013598] (scan_qos_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/launch/scan_relay.launch.py\n'}
+[13.016581] (scan_qos_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/scan_qos_bridge/share/ament_index/resource_index/package_run_dependencies/scan_qos_bridge\n'}
+[13.023174] (scan_qos_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/scan_qos_bridge/share/ament_index/resource_index/parent_prefix_path/scan_qos_bridge\n'}
+[13.027509] (scan_qos_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/environment/ament_prefix_path.sh\n'}
+[13.029414] (scan_qos_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/environment/ament_prefix_path.dsv\n'}
+[13.030908] (scan_qos_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/environment/path.sh\n'}
+[13.031992] (-) TimerEvent: {}
+[13.033791] (scan_qos_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/environment/path.dsv\n'}
+[13.038237] (scan_qos_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/local_setup.bash\n'}
+[13.043684] (scan_qos_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/local_setup.sh\n'}
+[13.049961] (scan_qos_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/local_setup.zsh\n'}
+[13.051589] (scan_qos_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/local_setup.dsv\n'}
+[13.053132] (scan_qos_bridge) StdoutLine: {'line': b'-- Installing: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/package.dsv\n'}
+[13.061795] (scan_qos_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/scan_qos_bridge/share/ament_index/resource_index/packages/scan_qos_bridge\n'}
+[13.067274] (scan_qos_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/cmake/scan_qos_bridgeConfig.cmake\n'}
+[13.069237] (scan_qos_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/cmake/scan_qos_bridgeConfig-version.cmake\n'}
+[13.070765] (scan_qos_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/package.xml\n'}
+[13.108533] (scan_qos_bridge) CommandEnded: {'returncode': 0}
+[13.132466] (-) TimerEvent: {}
+[13.236322] (-) TimerEvent: {}
+[13.344564] (-) TimerEvent: {}
+[13.456680] (-) TimerEvent: {}
+[13.567815] (-) TimerEvent: {}
+[13.672526] (-) TimerEvent: {}
+[13.737293] (scan_qos_bridge) JobEnded: {'identifier': 'scan_qos_bridge', 'rc': 0}
+[13.754970] (ydlidar_ros2_driver) JobStarted: {'identifier': 'ydlidar_ros2_driver'}
+[13.775095] (-) TimerEvent: {}
+[13.881469] (-) TimerEvent: {}
+[13.894650] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'cmake'}
+[13.922063] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'build'}
+[13.932909] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/robot_ws/build/ydlidar_ros2_driver', '--', '-j4', '-l4'], 'cwd': '/home/pi/robot_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.0.102 52226 22'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/pi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/pi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('TERM_PROGRAM_VERSION', '1.100.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-92d0f48d-4c79-4095-a6f1-b4eff2708e4c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'vi_VN'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/pi/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/pi/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/pi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/remote-cli:/home/pi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/pi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/pi/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts'), ('LC_ADDRESS', 'vi_VN'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/pi/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-a42bc04f42fd93d8.txt'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'vi_VN'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a48b6410c1.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/pi/robot_ws/install/ydlidar_ros2_driver:/home/pi/robot_ws/install/scan_qos_bridge:/home/pi/robot_ws/install/mecanum_robot:/home/pi/robot_ws/install/mecanum_kinematics:/home/pi/robot_ws/install/mecanum_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/pi/robot_ws/build/ydlidar_ros2_driver'), ('SSH_CONNECTION', '192.168.0.102 52226 192.168.0.105 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/robot_ws/install/mecanum_robot/lib/python3.10/site-packages:/home/pi/robot_ws/install/mecanum_kinematics/lib/python3.10/site-packages:/home/pi/robot_ws/install/mecanum_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/robot_ws/install/ydlidar_ros2_driver:/home/pi/robot_ws/install/scan_qos_bridge:/home/pi/robot_ws/install/mecanum_robot:/home/pi/robot_ws/install/mecanum_kinematics:/home/pi/robot_ws/install/mecanum_control:/opt/ros/humble')]), 'shell': False}
+[14.001095] (-) TimerEvent: {}
+[14.104336] (-) TimerEvent: {}
+[14.212500] (-) TimerEvent: {}
+[14.325106] (-) TimerEvent: {}
+[14.436540] (-) TimerEvent: {}
+[14.544445] (-) TimerEvent: {}
+[14.652465] (-) TimerEvent: {}
+[14.760476] (-) TimerEvent: {}
+[14.864500] (-) TimerEvent: {}
+[14.981017] (-) TimerEvent: {}
+[15.082622] (-) TimerEvent: {}
+[15.198362] (-) TimerEvent: {}
+[15.301015] (-) TimerEvent: {}
+[15.406547] (-) TimerEvent: {}
+[15.512081] (-) TimerEvent: {}
+[15.620464] (-) TimerEvent: {}
+[15.723115] (-) TimerEvent: {}
+[15.826450] (-) TimerEvent: {}
+[15.909034] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 50%] Built target ydlidar_ros2_driver_node\n'}
+[15.940467] (-) TimerEvent: {}
+[16.056434] (-) TimerEvent: {}
+[16.159243] (-) TimerEvent: {}
+[16.270442] (-) TimerEvent: {}
+[16.376363] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] Built target ydlidar_ros2_driver_client\n'}
+[16.377893] (-) TimerEvent: {}
+[16.498163] (-) TimerEvent: {}
+[16.625849] (-) TimerEvent: {}
+[16.703683] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[16.769552] (-) TimerEvent: {}
+[16.783256] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'install'}
+[16.783831] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/robot_ws/build/ydlidar_ros2_driver'], 'cwd': '/home/pi/robot_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.0.102 52226 22'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/pi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/pi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('TERM_PROGRAM_VERSION', '1.100.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-92d0f48d-4c79-4095-a6f1-b4eff2708e4c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'vi_VN'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/pi/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/pi/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/pi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/remote-cli:/home/pi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/pi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/pi/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts'), ('LC_ADDRESS', 'vi_VN'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/pi/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-a42bc04f42fd93d8.txt'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'vi_VN'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a48b6410c1.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/pi/robot_ws/install/ydlidar_ros2_driver:/home/pi/robot_ws/install/scan_qos_bridge:/home/pi/robot_ws/install/mecanum_robot:/home/pi/robot_ws/install/mecanum_kinematics:/home/pi/robot_ws/install/mecanum_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/pi/robot_ws/build/ydlidar_ros2_driver'), ('SSH_CONNECTION', '192.168.0.102 52226 192.168.0.105 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/robot_ws/install/mecanum_robot/lib/python3.10/site-packages:/home/pi/robot_ws/install/mecanum_kinematics/lib/python3.10/site-packages:/home/pi/robot_ws/install/mecanum_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/robot_ws/install/ydlidar_ros2_driver:/home/pi/robot_ws/install/scan_qos_bridge:/home/pi/robot_ws/install/mecanum_robot:/home/pi/robot_ws/install/mecanum_kinematics:/home/pi/robot_ws/install/mecanum_control:/opt/ros/humble')]), 'shell': False}
+[16.872441] (-) TimerEvent: {}
+[16.974211] (-) TimerEvent: {}
+[17.044674] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.046602] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node\n'}
+[17.074859] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client\n'}
+[17.076252] (-) TimerEvent: {}
+[17.077453] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch\n'}
+[17.078916] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py\n'}
+[17.100518] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py\n'}
+[17.103055] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py\n'}
+[17.119571] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params\n'}
+[17.121038] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS2.yaml\n'}
+[17.122316] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml\n'}
+[17.123538] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml\n'}
+[17.141748] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml\n'}
+[17.142930] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/sdm15.yaml\n'}
+[17.144089] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TEA.yaml\n'}
+[17.147646] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml\n'}
+[17.149020] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X3.yaml\n'}
+[17.158924] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS5.yaml\n'}
+[17.168938] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TminiPro.yaml\n'}
+[17.170384] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml\n'}
+[17.171502] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml\n'}
+[17.172678] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml\n'}
+[17.173859] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml\n'}
+[17.174842] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup\n'}
+[17.175792] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh\n'}
+[17.189644] (-) TimerEvent: {}
+[17.190800] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config\n'}
+[17.192065] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz\n'}
+[17.208961] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver\n'}
+[17.210173] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver\n'}
+[17.211409] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh\n'}
+[17.280777] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv\n'}
+[17.282164] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh\n'}
+[17.283353] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv\n'}
+[17.292898] (-) TimerEvent: {}
+[17.293993] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash\n'}
+[17.295304] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh\n'}
+[17.298622] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh\n'}
+[17.299811] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv\n'}
+[17.304540] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv\n'}
+[17.305831] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver\n'}
+[17.345649] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake\n'}
+[17.347680] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake\n'}
+[17.349493] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml\n'}
+[17.354399] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[17.394907] (-) TimerEvent: {}
+[17.498527] (-) TimerEvent: {}
+[17.602497] (-) TimerEvent: {}
+[17.711089] (-) TimerEvent: {}
+[17.741714] (ydlidar_ros2_driver) JobEnded: {'identifier': 'ydlidar_ros2_driver', 'rc': 0}
+[17.819324] (-) TimerEvent: {}
+[17.925918] (-) TimerEvent: {}
+[18.031496] (-) TimerEvent: {}
+[18.152595] (-) TimerEvent: {}
+[18.255894] (-) TimerEvent: {}
+[18.357597] (-) TimerEvent: {}
+[18.459157] (-) TimerEvent: {}
+[18.562211] (-) TimerEvent: {}
+[18.665385] (-) TimerEvent: {}
+[18.769573] (-) TimerEvent: {}
+[18.876769] (-) TimerEvent: {}
+[18.987589] (-) TimerEvent: {}
+[19.092611] (-) TimerEvent: {}
+[19.198509] (-) TimerEvent: {}
+[19.304337] (-) TimerEvent: {}
+[19.412617] (-) TimerEvent: {}
+[19.521895] (-) TimerEvent: {}
+[19.626673] (-) TimerEvent: {}
+[19.689772] (mecanum_kinematics) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/mecanum_kinematics', 'build', '--build-base', '/home/pi/robot_ws/build/mecanum_kinematics/build', 'install', '--record', '/home/pi/robot_ws/build/mecanum_kinematics/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/robot_ws/src/mecanum_kinematics', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.0.102 52226 22', 'LC_TIME': 'vi_VN', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/pi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/pi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'TERM_PROGRAM_VERSION': '1.100.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-92d0f48d-4c79-4095-a6f1-b4eff2708e4c.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/pi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'vi_VN', 'VSCODE_GIT_ASKPASS_NODE': '/home/pi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/pi/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/pi/robot_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/pi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/remote-cli:/home/pi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/pi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/pi/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts', 'LC_ADDRESS': 'vi_VN', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/pi/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-a42bc04f42fd93d8.txt', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'vi_VN', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-a48b6410c1.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/pi/robot_ws/install/ydlidar_ros2_driver:/home/pi/robot_ws/install/scan_qos_bridge:/home/pi/robot_ws/install/mecanum_robot:/home/pi/robot_ws/install/mecanum_kinematics:/home/pi/robot_ws/install/mecanum_control:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'vi_VN', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'vi_VN', 'LC_IDENTIFICATION': 'vi_VN', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/pi/robot_ws/build/mecanum_kinematics', 'SSH_CONNECTION': '192.168.0.102 52226 192.168.0.105 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/robot_ws/build/mecanum_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/robot_ws/install/mecanum_kinematics/lib/python3.10/site-packages:/home/pi/robot_ws/install/mecanum_robot/lib/python3.10/site-packages:/home/pi/robot_ws/install/mecanum_kinematics/lib/python3.10/site-packages:/home/pi/robot_ws/install/mecanum_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'vi_VN', 'LC_PAPER': 'vi_VN', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/robot_ws/install/ydlidar_ros2_driver:/home/pi/robot_ws/install/scan_qos_bridge:/home/pi/robot_ws/install/mecanum_robot'}, 'shell': False}
+[19.726932] (-) TimerEvent: {}
+[19.765956] (mecanum_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/mecanum_control', 'build', '--build-base', '/home/pi/robot_ws/build/mecanum_control/build', 'install', '--record', '/home/pi/robot_ws/build/mecanum_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/robot_ws/src/mecanum_control', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.0.102 52226 22', 'LC_TIME': 'vi_VN', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/pi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/pi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'TERM_PROGRAM_VERSION': '1.100.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-92d0f48d-4c79-4095-a6f1-b4eff2708e4c.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/pi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'vi_VN', 'VSCODE_GIT_ASKPASS_NODE': '/home/pi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/pi/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/pi/robot_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/pi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/remote-cli:/home/pi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/pi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/pi/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts', 'LC_ADDRESS': 'vi_VN', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/pi/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-a42bc04f42fd93d8.txt', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'vi_VN', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-a48b6410c1.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/pi/robot_ws/install/ydlidar_ros2_driver:/home/pi/robot_ws/install/scan_qos_bridge:/home/pi/robot_ws/install/mecanum_robot:/home/pi/robot_ws/install/mecanum_kinematics:/home/pi/robot_ws/install/mecanum_control:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'vi_VN', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'vi_VN', 'LC_IDENTIFICATION': 'vi_VN', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/pi/robot_ws/build/mecanum_control', 'SSH_CONNECTION': '192.168.0.102 52226 192.168.0.105 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/robot_ws/build/mecanum_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/robot_ws/install/mecanum_control/lib/python3.10/site-packages:/home/pi/robot_ws/install/mecanum_robot/lib/python3.10/site-packages:/home/pi/robot_ws/install/mecanum_kinematics/lib/python3.10/site-packages:/home/pi/robot_ws/install/mecanum_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'vi_VN', 'LC_PAPER': 'vi_VN', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/robot_ws/install/ydlidar_ros2_driver:/home/pi/robot_ws/install/scan_qos_bridge:/home/pi/robot_ws/install/mecanum_robot'}, 'shell': False}
+[19.834162] (-) TimerEvent: {}
+[19.937167] (-) TimerEvent: {}
+[20.044514] (-) TimerEvent: {}
+[20.151042] (-) TimerEvent: {}
+[20.256478] (-) TimerEvent: {}
+[20.360473] (-) TimerEvent: {}
+[20.416873] (mecanum_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/mecanum_robot', 'build', '--build-base', '/home/pi/robot_ws/build/mecanum_robot/build', 'install', '--record', '/home/pi/robot_ws/build/mecanum_robot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/robot_ws/src/mecanum_robot', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.0.102 52226 22', 'LC_TIME': 'vi_VN', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/pi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/pi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'TERM_PROGRAM_VERSION': '1.100.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-92d0f48d-4c79-4095-a6f1-b4eff2708e4c.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/pi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'vi_VN', 'VSCODE_GIT_ASKPASS_NODE': '/home/pi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/pi/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/pi/robot_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/pi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/remote-cli:/home/pi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/pi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/pi/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts', 'LC_ADDRESS': 'vi_VN', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/pi/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-a42bc04f42fd93d8.txt', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'vi_VN', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-a48b6410c1.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/pi/robot_ws/install/ydlidar_ros2_driver:/home/pi/robot_ws/install/scan_qos_bridge:/home/pi/robot_ws/install/mecanum_robot:/home/pi/robot_ws/install/mecanum_kinematics:/home/pi/robot_ws/install/mecanum_control:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'vi_VN', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'vi_VN', 'LC_IDENTIFICATION': 'vi_VN', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/pi/robot_ws/build/mecanum_robot', 'SSH_CONNECTION': '192.168.0.102 52226 192.168.0.105 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/robot_ws/build/mecanum_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/robot_ws/install/mecanum_robot/lib/python3.10/site-packages:/home/pi/robot_ws/install/mecanum_robot/lib/python3.10/site-packages:/home/pi/robot_ws/install/mecanum_kinematics/lib/python3.10/site-packages:/home/pi/robot_ws/install/mecanum_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'vi_VN', 'LC_PAPER': 'vi_VN', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/robot_ws/install/ydlidar_ros2_driver:/home/pi/robot_ws/install/scan_qos_bridge:/home/pi/robot_ws/install/mecanum_robot'}, 'shell': False}
+[20.478291] (-) TimerEvent: {}
+[20.579841] (-) TimerEvent: {}
+[20.684378] (-) TimerEvent: {}
+[20.786227] (-) TimerEvent: {}
+[20.887903] (-) TimerEvent: {}
+[20.989935] (-) TimerEvent: {}
+[21.091867] (-) TimerEvent: {}
+[21.199867] (-) TimerEvent: {}
+[21.309180] (-) TimerEvent: {}
+[21.412429] (-) TimerEvent: {}
+[21.516457] (-) TimerEvent: {}
+[21.620650] (-) TimerEvent: {}
+[21.724486] (-) TimerEvent: {}
+[21.828508] (-) TimerEvent: {}
+[21.930067] (-) TimerEvent: {}
+[22.040512] (-) TimerEvent: {}
+[22.145415] (-) TimerEvent: {}
+[22.248776] (-) TimerEvent: {}
+[22.359203] (-) TimerEvent: {}
+[22.460837] (-) TimerEvent: {}
+[22.563239] (-) TimerEvent: {}
+[22.669748] (-) TimerEvent: {}
+[22.778027] (-) TimerEvent: {}
+[22.883448] (-) TimerEvent: {}
+[22.994072] (-) TimerEvent: {}
+[23.100688] (-) TimerEvent: {}
+[23.202223] (-) TimerEvent: {}
+[23.309106] (-) TimerEvent: {}
+[23.424448] (-) TimerEvent: {}
+[23.532448] (-) TimerEvent: {}
+[23.640461] (-) TimerEvent: {}
+[23.744441] (-) TimerEvent: {}
+[23.852510] (-) TimerEvent: {}
+[23.956500] (-) TimerEvent: {}
+[24.064551] (-) TimerEvent: {}
+[24.166548] (-) TimerEvent: {}
+[24.276514] (-) TimerEvent: {}
+[24.378376] (-) TimerEvent: {}
+[24.496492] (-) TimerEvent: {}
+[24.608500] (-) TimerEvent: {}
+[24.710102] (-) TimerEvent: {}
+[24.820539] (-) TimerEvent: {}
+[24.922658] (-) TimerEvent: {}
+[25.024407] (-) TimerEvent: {}
+[25.131539] (-) TimerEvent: {}
+[25.233324] (-) TimerEvent: {}
+[25.237748] (mecanum_robot) StdoutLine: {'line': b'running egg_info\n'}
+[25.245393] (mecanum_robot) StdoutLine: {'line': b'writing ../../build/mecanum_robot/mecanum_robot.egg-info/PKG-INFO\n'}
+[25.247273] (mecanum_robot) StdoutLine: {'line': b'writing dependency_links to ../../build/mecanum_robot/mecanum_robot.egg-info/dependency_links.txt\n'}
+[25.263833] (mecanum_robot) StdoutLine: {'line': b'writing entry points to ../../build/mecanum_robot/mecanum_robot.egg-info/entry_points.txt\n'}
+[25.265477] (mecanum_robot) StdoutLine: {'line': b'writing requirements to ../../build/mecanum_robot/mecanum_robot.egg-info/requires.txt\n'}
+[25.266756] (mecanum_robot) StdoutLine: {'line': b'writing top-level names to ../../build/mecanum_robot/mecanum_robot.egg-info/top_level.txt\n'}
+[25.276875] (mecanum_robot) StdoutLine: {'line': b"reading manifest file '../../build/mecanum_robot/mecanum_robot.egg-info/SOURCES.txt'\n"}
+[25.295318] (mecanum_robot) StdoutLine: {'line': b"writing manifest file '../../build/mecanum_robot/mecanum_robot.egg-info/SOURCES.txt'\n"}
+[25.301402] (mecanum_robot) StdoutLine: {'line': b'running build\n'}
+[25.302808] (mecanum_robot) StdoutLine: {'line': b'running build_py\n'}
+[25.304857] (mecanum_robot) StdoutLine: {'line': b'running install\n'}
+[25.312446] (mecanum_robot) StdoutLine: {'line': b'running install_lib\n'}
+[25.333217] (mecanum_robot) StdoutLine: {'line': b'running install_data\n'}
+[25.334696] (-) TimerEvent: {}
+[25.342504] (mecanum_robot) StdoutLine: {'line': b'copying launch/navigation.launch.py -> /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/launch\n'}
+[25.354145] (mecanum_robot) StdoutLine: {'line': b'creating /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/maps\n'}
+[25.355731] (mecanum_robot) StdoutLine: {'line': b'copying maps/my_map.yaml -> /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/maps\n'}
+[25.359922] (mecanum_robot) StdoutLine: {'line': b'copying maps/my_map.pgm -> /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/maps\n'}
+[25.362297] (mecanum_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[25.397435] (mecanum_robot) StdoutLine: {'line': b"removing '/home/pi/robot_ws/install/mecanum_robot/lib/python3.10/site-packages/mecanum_robot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[25.408795] (mecanum_robot) StdoutLine: {'line': b'Copying ../../build/mecanum_robot/mecanum_robot.egg-info to /home/pi/robot_ws/install/mecanum_robot/lib/python3.10/site-packages/mecanum_robot-0.0.0-py3.10.egg-info\n'}
+[25.435031] (-) TimerEvent: {}
+[25.439802] (mecanum_robot) StdoutLine: {'line': b'running install_scripts\n'}
+[25.535344] (-) TimerEvent: {}
+[25.644535] (-) TimerEvent: {}
+[25.687549] (mecanum_robot) StdoutLine: {'line': b'Installing static_odom script to /home/pi/robot_ws/install/mecanum_robot/lib/mecanum_robot\n'}
+[25.693147] (mecanum_robot) StdoutLine: {'line': b"writing list of installed files to '/home/pi/robot_ws/build/mecanum_robot/install.log'\n"}
+[25.745580] (-) TimerEvent: {}
+[25.848519] (-) TimerEvent: {}
+[25.953432] (-) TimerEvent: {}
+[26.057609] (-) TimerEvent: {}
+[26.113386] (mecanum_robot) CommandEnded: {'returncode': 0}
+[26.157929] (-) TimerEvent: {}
+[26.276322] (-) TimerEvent: {}
+[26.388490] (-) TimerEvent: {}
+[26.464140] (mecanum_robot) JobEnded: {'identifier': 'mecanum_robot', 'rc': 0}
+[26.489730] (-) TimerEvent: {}
+[26.592478] (-) TimerEvent: {}
+[26.695500] (-) TimerEvent: {}
+[26.797242] (-) TimerEvent: {}
+[26.852547] (mecanum_control) StdoutLine: {'line': b'running egg_info\n'}
+[26.860042] (mecanum_control) StdoutLine: {'line': b'writing ../../build/mecanum_control/mecanum_control.egg-info/PKG-INFO\n'}
+[26.865121] (mecanum_control) StdoutLine: {'line': b'writing dependency_links to ../../build/mecanum_control/mecanum_control.egg-info/dependency_links.txt\n'}
+[26.866522] (mecanum_control) StdoutLine: {'line': b'writing entry points to ../../build/mecanum_control/mecanum_control.egg-info/entry_points.txt\n'}
+[26.874085] (mecanum_control) StdoutLine: {'line': b'writing requirements to ../../build/mecanum_control/mecanum_control.egg-info/requires.txt\n'}
+[26.875436] (mecanum_control) StdoutLine: {'line': b'writing top-level names to ../../build/mecanum_control/mecanum_control.egg-info/top_level.txt\n'}
+[26.895765] (mecanum_control) StdoutLine: {'line': b"reading manifest file '../../build/mecanum_control/mecanum_control.egg-info/SOURCES.txt'\n"}
+[26.897361] (-) TimerEvent: {}
+[26.918612] (mecanum_control) StdoutLine: {'line': b"writing manifest file '../../build/mecanum_control/mecanum_control.egg-info/SOURCES.txt'\n"}
+[26.923739] (mecanum_control) StdoutLine: {'line': b'running build\n'}
+[26.925153] (mecanum_control) StdoutLine: {'line': b'running build_py\n'}
+[26.933208] (mecanum_control) StdoutLine: {'line': b'running install\n'}
+[26.937524] (mecanum_control) StdoutLine: {'line': b'running install_lib\n'}
+[26.950101] (mecanum_control) StdoutLine: {'line': b'running install_data\n'}
+[26.960481] (mecanum_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[26.997867] (-) TimerEvent: {}
+[27.007765] (mecanum_control) StdoutLine: {'line': b"removing '/home/pi/robot_ws/install/mecanum_control/lib/python3.10/site-packages/mecanum_control-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[27.029265] (mecanum_control) StdoutLine: {'line': b'Copying ../../build/mecanum_control/mecanum_control.egg-info to /home/pi/robot_ws/install/mecanum_control/lib/python3.10/site-packages/mecanum_control-0.0.0-py3.10.egg-info\n'}
+[27.059680] (mecanum_control) StdoutLine: {'line': b'running install_scripts\n'}
+[27.098449] (-) TimerEvent: {}
+[27.202750] (-) TimerEvent: {}
+[27.306622] (-) TimerEvent: {}
+[27.408517] (-) TimerEvent: {}
+[27.433934] (mecanum_control) StdoutLine: {'line': b'Installing esp32_serial_bridge script to /home/pi/robot_ws/install/mecanum_control/lib/mecanum_control\n'}
+[27.446863] (mecanum_control) StdoutLine: {'line': b'Installing joy_to_cmd_vel script to /home/pi/robot_ws/install/mecanum_control/lib/mecanum_control\n'}
+[27.451164] (mecanum_control) StdoutLine: {'line': b"writing list of installed files to '/home/pi/robot_ws/build/mecanum_control/install.log'\n"}
+[27.509392] (-) TimerEvent: {}
+[27.612430] (-) TimerEvent: {}
+[27.714834] (-) TimerEvent: {}
+[27.816500] (-) TimerEvent: {}
+[27.865271] (mecanum_control) CommandEnded: {'returncode': 0}
+[27.918733] (-) TimerEvent: {}
+[28.021920] (-) TimerEvent: {}
+[28.045228] (mecanum_control) JobEnded: {'identifier': 'mecanum_control', 'rc': 0}
+[28.122257] (-) TimerEvent: {}
+[28.223636] (-) TimerEvent: {}
+[28.325220] (-) TimerEvent: {}
+[28.426733] (-) TimerEvent: {}
+[28.480926] (mecanum_kinematics) StdoutLine: {'line': b'running egg_info\n'}
+[28.490567] (mecanum_kinematics) StdoutLine: {'line': b'writing ../../build/mecanum_kinematics/mecanum_kinematics.egg-info/PKG-INFO\n'}
+[28.496412] (mecanum_kinematics) StdoutLine: {'line': b'writing dependency_links to ../../build/mecanum_kinematics/mecanum_kinematics.egg-info/dependency_links.txt\n'}
+[28.498960] (mecanum_kinematics) StdoutLine: {'line': b'writing entry points to ../../build/mecanum_kinematics/mecanum_kinematics.egg-info/entry_points.txt\n'}
+[28.501698] (mecanum_kinematics) StdoutLine: {'line': b'writing requirements to ../../build/mecanum_kinematics/mecanum_kinematics.egg-info/requires.txt\n'}
+[28.507791] (mecanum_kinematics) StdoutLine: {'line': b'writing top-level names to ../../build/mecanum_kinematics/mecanum_kinematics.egg-info/top_level.txt\n'}
+[28.524405] (mecanum_kinematics) StdoutLine: {'line': b"reading manifest file '../../build/mecanum_kinematics/mecanum_kinematics.egg-info/SOURCES.txt'\n"}
+[28.528770] (-) TimerEvent: {}
+[28.541509] (mecanum_kinematics) StdoutLine: {'line': b"writing manifest file '../../build/mecanum_kinematics/mecanum_kinematics.egg-info/SOURCES.txt'\n"}
+[28.543784] (mecanum_kinematics) StdoutLine: {'line': b'running build\n'}
+[28.545476] (mecanum_kinematics) StdoutLine: {'line': b'running build_py\n'}
+[28.550180] (mecanum_kinematics) StdoutLine: {'line': b'running install\n'}
+[28.556582] (mecanum_kinematics) StdoutLine: {'line': b'running install_lib\n'}
+[28.579941] (mecanum_kinematics) StdoutLine: {'line': b'running install_data\n'}
+[28.584032] (mecanum_kinematics) StdoutLine: {'line': b'running install_egg_info\n'}
+[28.624855] (mecanum_kinematics) StdoutLine: {'line': b"removing '/home/pi/robot_ws/install/mecanum_kinematics/lib/python3.10/site-packages/mecanum_kinematics-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[28.629099] (-) TimerEvent: {}
+[28.630919] (mecanum_kinematics) StdoutLine: {'line': b'Copying ../../build/mecanum_kinematics/mecanum_kinematics.egg-info to /home/pi/robot_ws/install/mecanum_kinematics/lib/python3.10/site-packages/mecanum_kinematics-0.0.0-py3.10.egg-info\n'}
+[28.657782] (mecanum_kinematics) StdoutLine: {'line': b'running install_scripts\n'}
+[28.729415] (-) TimerEvent: {}
+[28.830951] (-) TimerEvent: {}
+[28.932522] (-) TimerEvent: {}
+[28.949965] (mecanum_kinematics) StdoutLine: {'line': b'Installing encoder_gpio_publisher script to /home/pi/robot_ws/install/mecanum_kinematics/lib/mecanum_kinematics\n'}
+[28.957474] (mecanum_kinematics) StdoutLine: {'line': b'Installing imu_publisher script to /home/pi/robot_ws/install/mecanum_kinematics/lib/mecanum_kinematics\n'}
+[28.959873] (mecanum_kinematics) StdoutLine: {'line': b'Installing test_encoder script to /home/pi/robot_ws/install/mecanum_kinematics/lib/mecanum_kinematics\n'}
+[28.967306] (mecanum_kinematics) StdoutLine: {'line': b"writing list of installed files to '/home/pi/robot_ws/build/mecanum_kinematics/install.log'\n"}
+[29.032987] (-) TimerEvent: {}
+[29.135022] (-) TimerEvent: {}
+[29.236804] (-) TimerEvent: {}
+[29.261915] (mecanum_kinematics) CommandEnded: {'returncode': 0}
+[29.337642] (-) TimerEvent: {}
+[29.383678] (mecanum_kinematics) JobEnded: {'identifier': 'mecanum_kinematics', 'rc': 0}
+[29.393784] (-) EventReactorShutdown: {}

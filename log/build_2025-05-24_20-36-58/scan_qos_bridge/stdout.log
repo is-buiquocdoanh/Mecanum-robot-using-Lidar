@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/scan_relay.dir/src/scan_relay.cpp.o[0m
+[100%] [32m[1mLinking CXX executable scan_relay[0m
+[100%] Built target scan_relay
+-- Install configuration: ""
+-- Installing: /home/pi/robot_ws/install/scan_qos_bridge/lib/scan_qos_bridge/scan_relay
+-- Set runtime path of "/home/pi/robot_ws/install/scan_qos_bridge/lib/scan_qos_bridge/scan_relay" to ""
+-- Installing: /home/pi/robot_ws/install/scan_qos_bridge/share/ament_index/resource_index/package_run_dependencies/scan_qos_bridge
+-- Installing: /home/pi/robot_ws/install/scan_qos_bridge/share/ament_index/resource_index/parent_prefix_path/scan_qos_bridge
+-- Installing: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/environment/ament_prefix_path.sh
+-- Installing: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/environment/ament_prefix_path.dsv
+-- Installing: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/environment/path.sh
+-- Installing: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/environment/path.dsv
+-- Installing: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/local_setup.bash
+-- Installing: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/local_setup.sh
+-- Installing: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/local_setup.zsh
+-- Installing: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/local_setup.dsv
+-- Installing: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/package.dsv
+-- Installing: /home/pi/robot_ws/install/scan_qos_bridge/share/ament_index/resource_index/packages/scan_qos_bridge
+-- Installing: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/cmake/scan_qos_bridgeConfig.cmake
+-- Installing: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/cmake/scan_qos_bridgeConfig-version.cmake
+-- Installing: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/package.xml

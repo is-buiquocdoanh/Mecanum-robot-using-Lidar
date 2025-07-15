@@ -1,0 +1,2 @@
+source;share/scan_qos_bridge/environment/ament_prefix_path.sh
+source;share/scan_qos_bridge/environment/path.sh

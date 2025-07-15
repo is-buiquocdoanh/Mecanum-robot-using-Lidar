@@ -1,0 +1,24 @@
+[10.544s] Invoking command in '/home/pi/robot_ws/build/scan_qos_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/robot_ws/install/mecanum_kinematics:/home/pi/robot_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/pi/robot_ws/build/scan_qos_bridge -- -j4 -l4
+[12.024s] [100%] Built target scan_relay
+[12.185s] Invoked command in '/home/pi/robot_ws/build/scan_qos_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/robot_ws/install/mecanum_kinematics:/home/pi/robot_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/pi/robot_ws/build/scan_qos_bridge -- -j4 -l4
+[12.345s] Invoking command in '/home/pi/robot_ws/build/scan_qos_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/robot_ws/install/mecanum_kinematics:/home/pi/robot_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/pi/robot_ws/build/scan_qos_bridge
+[12.486s] -- Install configuration: ""
+[12.496s] -- Up-to-date: /home/pi/robot_ws/install/scan_qos_bridge/lib/scan_qos_bridge/scan_relay
+[12.502s] -- Up-to-date: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/launch
+[12.505s] -- Up-to-date: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/launch/scan_relay.launch.py
+[12.509s] -- Up-to-date: /home/pi/robot_ws/install/scan_qos_bridge/share/ament_index/resource_index/package_run_dependencies/scan_qos_bridge
+[12.520s] -- Up-to-date: /home/pi/robot_ws/install/scan_qos_bridge/share/ament_index/resource_index/parent_prefix_path/scan_qos_bridge
+[12.523s] -- Up-to-date: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/environment/ament_prefix_path.sh
+[12.533s] -- Up-to-date: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/environment/ament_prefix_path.dsv
+[12.535s] -- Up-to-date: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/environment/path.sh
+[12.537s] -- Up-to-date: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/environment/path.dsv
+[12.538s] -- Up-to-date: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/local_setup.bash
+[12.547s] -- Up-to-date: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/local_setup.sh
+[12.549s] -- Up-to-date: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/local_setup.zsh
+[12.552s] -- Up-to-date: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/local_setup.dsv
+[12.553s] -- Installing: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/package.dsv
+[12.557s] -- Up-to-date: /home/pi/robot_ws/install/scan_qos_bridge/share/ament_index/resource_index/packages/scan_qos_bridge
+[12.566s] -- Up-to-date: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/cmake/scan_qos_bridgeConfig.cmake
+[12.572s] -- Up-to-date: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/cmake/scan_qos_bridgeConfig-version.cmake
+[12.574s] -- Up-to-date: /home/pi/robot_ws/install/scan_qos_bridge/share/scan_qos_bridge/package.xml
+[12.625s] Invoked command in '/home/pi/robot_ws/build/scan_qos_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/robot_ws/install/mecanum_kinematics:/home/pi/robot_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/pi/robot_ws/build/scan_qos_bridge

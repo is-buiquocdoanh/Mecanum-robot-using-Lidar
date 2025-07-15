@@ -1,0 +1,32 @@
+[2.563s] Invoking command in '/home/pi/robot_ws/build/mecanum_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/robot_ws/install/mecanum_kinematics:/home/pi/robot_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/pi/robot_ws/build/mecanum_robot -- -j4 -l4
+[3.079s] Invoked command in '/home/pi/robot_ws/build/mecanum_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/robot_ws/install/mecanum_kinematics:/home/pi/robot_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/pi/robot_ws/build/mecanum_robot -- -j4 -l4
+[3.164s] Invoking command in '/home/pi/robot_ws/build/mecanum_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/robot_ws/install/mecanum_kinematics:/home/pi/robot_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/pi/robot_ws/build/mecanum_robot
+[3.242s] -- Install configuration: ""
+[3.244s] -- Up-to-date: /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/description
+[3.248s] -- Up-to-date: /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/description/inertial_macros.xacro
+[3.249s] -- Up-to-date: /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/description/lidar.xacro
+[3.251s] -- Up-to-date: /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/description/robot.urdf.xacro
+[3.251s] -- Up-to-date: /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/description/robot_core.xacro
+[3.252s] -- Up-to-date: /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/launch
+[3.253s] -- Up-to-date: /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/launch/launch_sim.launch.py
+[3.257s] -- Up-to-date: /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/launch/rsp.launch.py
+[3.261s] -- Up-to-date: /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/config
+[3.262s] -- Up-to-date: /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/config/simple_controllers.yaml
+[3.263s] -- Up-to-date: /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/config/view_bot.rviz
+[3.264s] -- Up-to-date: /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/config/mecanum_controllers.yaml
+[3.266s] -- Up-to-date: /home/pi/robot_ws/install/mecanum_robot/share/ament_index/resource_index/package_run_dependencies/mecanum_robot
+[3.269s] -- Up-to-date: /home/pi/robot_ws/install/mecanum_robot/share/ament_index/resource_index/parent_prefix_path/mecanum_robot
+[3.271s] -- Up-to-date: /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/environment/ament_prefix_path.sh
+[3.274s] -- Up-to-date: /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/environment/ament_prefix_path.dsv
+[3.276s] -- Up-to-date: /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/environment/path.sh
+[3.277s] -- Up-to-date: /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/environment/path.dsv
+[3.280s] -- Up-to-date: /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/local_setup.bash
+[3.281s] -- Up-to-date: /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/local_setup.sh
+[3.282s] -- Up-to-date: /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/local_setup.zsh
+[3.282s] -- Up-to-date: /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/local_setup.dsv
+[3.285s] -- Installing: /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/package.dsv
+[3.289s] -- Up-to-date: /home/pi/robot_ws/install/mecanum_robot/share/ament_index/resource_index/packages/mecanum_robot
+[3.291s] -- Up-to-date: /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/cmake/mecanum_robotConfig.cmake
+[3.292s] -- Up-to-date: /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/cmake/mecanum_robotConfig-version.cmake
+[3.293s] -- Up-to-date: /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/package.xml
+[3.301s] Invoked command in '/home/pi/robot_ws/build/mecanum_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/robot_ws/install/mecanum_kinematics:/home/pi/robot_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/pi/robot_ws/build/mecanum_robot

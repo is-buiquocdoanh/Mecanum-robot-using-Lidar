@@ -1,0 +1,28 @@
+running develop
+running egg_info
+writing mecanum_robot.egg-info/PKG-INFO
+writing dependency_links to mecanum_robot.egg-info/dependency_links.txt
+writing entry points to mecanum_robot.egg-info/entry_points.txt
+writing requirements to mecanum_robot.egg-info/requires.txt
+writing top-level names to mecanum_robot.egg-info/top_level.txt
+reading manifest file 'mecanum_robot.egg-info/SOURCES.txt'
+writing manifest file 'mecanum_robot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pi/robot_ws/install/mecanum_robot/lib/python3.10/site-packages/mecanum-robot.egg-link (link to .)
+Installing static_odom script to /home/pi/robot_ws/install/mecanum_robot/lib/mecanum_robot
+
+Installed /home/pi/robot_ws/build/mecanum_robot
+running symlink_data
+symbolically linking /home/pi/robot_ws/build/mecanum_robot/resource/mecanum_robot -> /home/pi/robot_ws/install/mecanum_robot/share/ament_index/resource_index/packages
+symbolically linking /home/pi/robot_ws/build/mecanum_robot/package.xml -> /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot
+symbolically linking /home/pi/robot_ws/build/mecanum_robot/package.xml -> /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot
+symbolically linking /home/pi/robot_ws/build/mecanum_robot/description/robot.urdf -> /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/description
+symbolically linking /home/pi/robot_ws/build/mecanum_robot/launch/display.launch.py -> /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/launch
+symbolically linking /home/pi/robot_ws/build/mecanum_robot/launch/slam_toolbox_launch.py -> /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/launch
+symbolically linking /home/pi/robot_ws/build/mecanum_robot/launch/full_mapping.launch.py -> /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/launch
+symbolically linking /home/pi/robot_ws/build/mecanum_robot/launch/test_slam.launch.py -> /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/launch
+symbolically linking /home/pi/robot_ws/build/mecanum_robot/launch/navigation.launch.py -> /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/launch
+symbolically linking /home/pi/robot_ws/build/mecanum_robot/config/test_slam.yaml -> /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/config
+symbolically linking /home/pi/robot_ws/build/mecanum_robot/config/slam_config.yaml -> /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/config
+symbolically linking /home/pi/robot_ws/build/mecanum_robot/maps/my_map.yaml -> /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/maps
+symbolically linking /home/pi/robot_ws/build/mecanum_robot/maps/my_map.pgm -> /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/maps

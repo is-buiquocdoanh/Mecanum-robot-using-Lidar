@@ -1,0 +1,2 @@
+[2.544s] Invoking command in '/home/pi/robot_ws/build/scan_qos_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/robot_ws/build/scan_qos_bridge -- -j4 -l4
+[3.204s] [ 50%] [32mBuilding CXX object CMakeFiles/scan_relay.dir/src/scan_relay.cpp.o[0m

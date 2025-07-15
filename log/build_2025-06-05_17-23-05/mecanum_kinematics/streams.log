@@ -1,0 +1,22 @@
+[7.210s] Invoking command in '/home/pi/robot_ws/src/mecanum_kinematics': PYTHONPATH=/home/pi/robot_ws/build/mecanum_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/robot_ws/install/mecanum_kinematics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mecanum_kinematics build --build-base /home/pi/robot_ws/build/mecanum_kinematics/build install --record /home/pi/robot_ws/build/mecanum_kinematics/install.log --single-version-externally-managed install_data
+[10.303s] running egg_info
+[10.310s] writing ../../build/mecanum_kinematics/mecanum_kinematics.egg-info/PKG-INFO
+[10.311s] writing dependency_links to ../../build/mecanum_kinematics/mecanum_kinematics.egg-info/dependency_links.txt
+[10.311s] writing entry points to ../../build/mecanum_kinematics/mecanum_kinematics.egg-info/entry_points.txt
+[10.318s] writing requirements to ../../build/mecanum_kinematics/mecanum_kinematics.egg-info/requires.txt
+[10.319s] writing top-level names to ../../build/mecanum_kinematics/mecanum_kinematics.egg-info/top_level.txt
+[10.333s] reading manifest file '../../build/mecanum_kinematics/mecanum_kinematics.egg-info/SOURCES.txt'
+[10.350s] writing manifest file '../../build/mecanum_kinematics/mecanum_kinematics.egg-info/SOURCES.txt'
+[10.351s] running build
+[10.352s] running build_py
+[10.353s] running install
+[10.367s] running install_lib
+[10.378s] running install_data
+[10.379s] running install_egg_info
+[10.403s] removing '/home/pi/robot_ws/install/mecanum_kinematics/lib/python3.10/site-packages/mecanum_kinematics-0.0.0-py3.10.egg-info' (and everything under it)
+[10.415s] Copying ../../build/mecanum_kinematics/mecanum_kinematics.egg-info to /home/pi/robot_ws/install/mecanum_kinematics/lib/python3.10/site-packages/mecanum_kinematics-0.0.0-py3.10.egg-info
+[10.434s] running install_scripts
+[10.665s] Installing encoder_gpio_publisher script to /home/pi/robot_ws/install/mecanum_kinematics/lib/mecanum_kinematics
+[10.670s] Installing imu_publisher script to /home/pi/robot_ws/install/mecanum_kinematics/lib/mecanum_kinematics
+[10.674s] writing list of installed files to '/home/pi/robot_ws/build/mecanum_kinematics/install.log'
+[11.115s] Invoked command in '/home/pi/robot_ws/src/mecanum_kinematics' returned '0': PYTHONPATH=/home/pi/robot_ws/build/mecanum_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/robot_ws/install/mecanum_kinematics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mecanum_kinematics build --build-base /home/pi/robot_ws/build/mecanum_kinematics/build install --record /home/pi/robot_ws/build/mecanum_kinematics/install.log --single-version-externally-managed install_data

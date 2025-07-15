@@ -1,0 +1,5 @@
+[console_scripts]
+encoder_gpio_publisher = mecanum_kinematics.encoder_gpio_publisher:main
+imu_publisher = mecanum_kinematics.imu_publisher:main
+test_encoder = mecanum_kinematics.test_encoder:main
+

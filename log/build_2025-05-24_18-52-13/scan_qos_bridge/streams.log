@@ -1,0 +1,46 @@
+[2.630s] Invoking command in '/home/pi/robot_ws/build/scan_qos_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/robot_ws/install/mecanum_kinematics:/home/pi/robot_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake /home/pi/robot_ws/src/scan_qos_bridge -DCMAKE_INSTALL_PREFIX=/home/pi/robot_ws/install/scan_qos_bridge
+[3.736s] -- The C compiler identification is GNU 11.4.0
+[4.947s] -- The CXX compiler identification is GNU 11.4.0
+[5.041s] -- Detecting C compiler ABI info
+[5.919s] -- Detecting C compiler ABI info - done
+[5.952s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.959s] -- Detecting C compile features
+[5.960s] -- Detecting C compile features - done
+[5.974s] -- Detecting CXX compiler ABI info
+[6.758s] -- Detecting CXX compiler ABI info - done
+[6.841s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.846s] -- Detecting CXX compile features
+[6.851s] -- Detecting CXX compile features - done
+[6.964s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.956s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[10.770s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[11.364s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[11.428s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[11.521s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[11.692s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.941s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.525s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[12.591s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[13.647s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[14.147s] -- Found FastRTPS: /opt/ros/humble/include  
+[14.899s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[15.000s] -- Looking for pthread.h
+[15.762s] -- Looking for pthread.h - found
+[15.777s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[16.497s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[16.504s] -- Found Threads: TRUE  
+[16.973s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[17.236s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[17.839s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[17.841s] -- Configured cppcheck include dirs: 
+[17.841s] -- Configured cppcheck exclude dirs and/or files: 
+[17.849s] -- Added test 'lint_cmake' to check CMake code style
+[17.860s] -- Added test 'uncrustify' to check C / C++ code style
+[17.863s] -- Configured uncrustify additional arguments: 
+[17.866s] -- Added test 'xmllint' to check XML markup files
+[17.884s] -- Configuring done
+[17.952s] -- Generating done
+[17.973s] -- Build files have been written to: /home/pi/robot_ws/build/scan_qos_bridge
+[18.022s] Invoked command in '/home/pi/robot_ws/build/scan_qos_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/robot_ws/install/mecanum_kinematics:/home/pi/robot_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake /home/pi/robot_ws/src/scan_qos_bridge -DCMAKE_INSTALL_PREFIX=/home/pi/robot_ws/install/scan_qos_bridge
+[18.034s] Invoking command in '/home/pi/robot_ws/build/scan_qos_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/robot_ws/install/mecanum_kinematics:/home/pi/robot_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/pi/robot_ws/build/scan_qos_bridge -- -j4 -l4
+[18.300s] [ 50%] [32mBuilding CXX object CMakeFiles/scan_relay.dir/src/scan_relay.cpp.o[0m

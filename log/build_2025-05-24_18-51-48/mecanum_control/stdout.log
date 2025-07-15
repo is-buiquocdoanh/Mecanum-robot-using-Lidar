@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/mecanum_control/mecanum_control.egg-info
+writing ../../build/mecanum_control/mecanum_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/mecanum_control/mecanum_control.egg-info/dependency_links.txt
+writing entry points to ../../build/mecanum_control/mecanum_control.egg-info/entry_points.txt
+writing requirements to ../../build/mecanum_control/mecanum_control.egg-info/requires.txt
+writing top-level names to ../../build/mecanum_control/mecanum_control.egg-info/top_level.txt
+writing manifest file '../../build/mecanum_control/mecanum_control.egg-info/SOURCES.txt'
+reading manifest file '../../build/mecanum_control/mecanum_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/mecanum_control/mecanum_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pi/robot_ws/build/mecanum_control/build
+creating /home/pi/robot_ws/build/mecanum_control/build/lib
+creating /home/pi/robot_ws/build/mecanum_control/build/lib/mecanum_control
+copying mecanum_control/joy_to_cmd_vel.py -> /home/pi/robot_ws/build/mecanum_control/build/lib/mecanum_control
+copying mecanum_control/esp32_serial_bridge.py -> /home/pi/robot_ws/build/mecanum_control/build/lib/mecanum_control
+copying mecanum_control/__init__.py -> /home/pi/robot_ws/build/mecanum_control/build/lib/mecanum_control
+running install
+running install_lib
+creating /home/pi/robot_ws/install/mecanum_control/lib/python3.10/site-packages/mecanum_control
+copying /home/pi/robot_ws/build/mecanum_control/build/lib/mecanum_control/joy_to_cmd_vel.py -> /home/pi/robot_ws/install/mecanum_control/lib/python3.10/site-packages/mecanum_control
+copying /home/pi/robot_ws/build/mecanum_control/build/lib/mecanum_control/esp32_serial_bridge.py -> /home/pi/robot_ws/install/mecanum_control/lib/python3.10/site-packages/mecanum_control
+copying /home/pi/robot_ws/build/mecanum_control/build/lib/mecanum_control/__init__.py -> /home/pi/robot_ws/install/mecanum_control/lib/python3.10/site-packages/mecanum_control
+byte-compiling /home/pi/robot_ws/install/mecanum_control/lib/python3.10/site-packages/mecanum_control/joy_to_cmd_vel.py to joy_to_cmd_vel.cpython-310.pyc
+byte-compiling /home/pi/robot_ws/install/mecanum_control/lib/python3.10/site-packages/mecanum_control/esp32_serial_bridge.py to esp32_serial_bridge.cpython-310.pyc
+byte-compiling /home/pi/robot_ws/install/mecanum_control/lib/python3.10/site-packages/mecanum_control/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/pi/robot_ws/install/mecanum_control/share/ament_index
+creating /home/pi/robot_ws/install/mecanum_control/share/ament_index/resource_index
+creating /home/pi/robot_ws/install/mecanum_control/share/ament_index/resource_index/packages
+copying resource/mecanum_control -> /home/pi/robot_ws/install/mecanum_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/pi/robot_ws/install/mecanum_control/share/mecanum_control
+running install_egg_info
+Copying ../../build/mecanum_control/mecanum_control.egg-info to /home/pi/robot_ws/install/mecanum_control/lib/python3.10/site-packages/mecanum_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing esp32_serial_bridge script to /home/pi/robot_ws/install/mecanum_control/lib/mecanum_control
+Installing joy_to_cmd_vel script to /home/pi/robot_ws/install/mecanum_control/lib/mecanum_control
+writing list of installed files to '/home/pi/robot_ws/build/mecanum_control/install.log'

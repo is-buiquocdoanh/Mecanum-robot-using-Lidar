@@ -1,0 +1,22 @@
+[7.207s] Invoking command in '/home/pi/robot_ws/src/mecanum_robot': PYTHONPATH=/home/pi/robot_ws/build/mecanum_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/robot_ws/install/mecanum_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mecanum_robot build --build-base /home/pi/robot_ws/build/mecanum_robot/build install --record /home/pi/robot_ws/build/mecanum_robot/install.log --single-version-externally-managed install_data
+[9.554s] running egg_info
+[9.558s] writing ../../build/mecanum_robot/mecanum_robot.egg-info/PKG-INFO
+[9.559s] writing dependency_links to ../../build/mecanum_robot/mecanum_robot.egg-info/dependency_links.txt
+[9.561s] writing entry points to ../../build/mecanum_robot/mecanum_robot.egg-info/entry_points.txt
+[9.562s] writing requirements to ../../build/mecanum_robot/mecanum_robot.egg-info/requires.txt
+[9.563s] writing top-level names to ../../build/mecanum_robot/mecanum_robot.egg-info/top_level.txt
+[9.574s] reading manifest file '../../build/mecanum_robot/mecanum_robot.egg-info/SOURCES.txt'
+[9.581s] writing manifest file '../../build/mecanum_robot/mecanum_robot.egg-info/SOURCES.txt'
+[9.583s] running build
+[9.583s] running build_py
+[9.585s] running install
+[9.587s] running install_lib
+[9.599s] running install_data
+[9.601s] copying launch/full_mapping.launch.py -> /home/pi/robot_ws/install/mecanum_robot/share/mecanum_robot/launch
+[9.603s] running install_egg_info
+[9.623s] removing '/home/pi/robot_ws/install/mecanum_robot/lib/python3.10/site-packages/mecanum_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[9.627s] Copying ../../build/mecanum_robot/mecanum_robot.egg-info to /home/pi/robot_ws/install/mecanum_robot/lib/python3.10/site-packages/mecanum_robot-0.0.0-py3.10.egg-info
+[9.639s] running install_scripts
+[9.767s] Installing static_odom script to /home/pi/robot_ws/install/mecanum_robot/lib/mecanum_robot
+[9.769s] writing list of installed files to '/home/pi/robot_ws/build/mecanum_robot/install.log'
+[9.954s] Invoked command in '/home/pi/robot_ws/src/mecanum_robot' returned '0': PYTHONPATH=/home/pi/robot_ws/build/mecanum_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/robot_ws/install/mecanum_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mecanum_robot build --build-base /home/pi/robot_ws/build/mecanum_robot/build install --record /home/pi/robot_ws/build/mecanum_robot/install.log --single-version-externally-managed install_data

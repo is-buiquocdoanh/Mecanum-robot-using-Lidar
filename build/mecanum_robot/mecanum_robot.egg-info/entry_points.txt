@@ -1,0 +1,3 @@
+[console_scripts]
+static_odom = mecanum_robot.static_odom:main
+

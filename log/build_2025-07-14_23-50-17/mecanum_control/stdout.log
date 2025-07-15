@@ -1,0 +1,20 @@
+running develop
+running egg_info
+writing mecanum_control.egg-info/PKG-INFO
+writing dependency_links to mecanum_control.egg-info/dependency_links.txt
+writing entry points to mecanum_control.egg-info/entry_points.txt
+writing requirements to mecanum_control.egg-info/requires.txt
+writing top-level names to mecanum_control.egg-info/top_level.txt
+reading manifest file 'mecanum_control.egg-info/SOURCES.txt'
+writing manifest file 'mecanum_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pi/robot_ws/install/mecanum_control/lib/python3.10/site-packages/mecanum-control.egg-link (link to .)
+Installing esp32_serial_bridge script to /home/pi/robot_ws/install/mecanum_control/lib/mecanum_control
+Installing joy_to_cmd_vel script to /home/pi/robot_ws/install/mecanum_control/lib/mecanum_control
+
+Installed /home/pi/robot_ws/build/mecanum_control
+running symlink_data
+symbolically linking /home/pi/robot_ws/build/mecanum_control/resource/mecanum_control -> /home/pi/robot_ws/install/mecanum_control/share/ament_index/resource_index/packages
+symbolically linking /home/pi/robot_ws/build/mecanum_control/package.xml -> /home/pi/robot_ws/install/mecanum_control/share/mecanum_control
+symbolically linking /home/pi/robot_ws/build/mecanum_control/launch/joystick_control.launch.py -> /home/pi/robot_ws/install/mecanum_control/share/mecanum_control/launch
+symbolically linking /home/pi/robot_ws/build/mecanum_control/launch/esp32_bridge.launch.py -> /home/pi/robot_ws/install/mecanum_control/share/mecanum_control/launch

@@ -1,0 +1,22 @@
+[14.052s] Invoking command in '/home/pi/robot_ws/src/mecanum_control': PYTHONPATH=/home/pi/robot_ws/build/mecanum_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/robot_ws/install/mecanum_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mecanum_control build --build-base /home/pi/robot_ws/build/mecanum_control/build install --record /home/pi/robot_ws/build/mecanum_control/install.log --single-version-externally-managed install_data
+[19.478s] running egg_info
+[19.486s] writing ../../build/mecanum_control/mecanum_control.egg-info/PKG-INFO
+[19.493s] writing dependency_links to ../../build/mecanum_control/mecanum_control.egg-info/dependency_links.txt
+[19.498s] writing entry points to ../../build/mecanum_control/mecanum_control.egg-info/entry_points.txt
+[19.501s] writing requirements to ../../build/mecanum_control/mecanum_control.egg-info/requires.txt
+[19.503s] writing top-level names to ../../build/mecanum_control/mecanum_control.egg-info/top_level.txt
+[19.527s] reading manifest file '../../build/mecanum_control/mecanum_control.egg-info/SOURCES.txt'
+[19.546s] writing manifest file '../../build/mecanum_control/mecanum_control.egg-info/SOURCES.txt'
+[19.550s] running build
+[19.555s] running build_py
+[19.556s] running install
+[19.558s] running install_lib
+[19.581s] running install_data
+[19.585s] running install_egg_info
+[19.621s] removing '/home/pi/robot_ws/install/mecanum_control/lib/python3.10/site-packages/mecanum_control-0.0.0-py3.10.egg-info' (and everything under it)
+[19.627s] Copying ../../build/mecanum_control/mecanum_control.egg-info to /home/pi/robot_ws/install/mecanum_control/lib/python3.10/site-packages/mecanum_control-0.0.0-py3.10.egg-info
+[19.659s] running install_scripts
+[19.969s] Installing esp32_serial_bridge script to /home/pi/robot_ws/install/mecanum_control/lib/mecanum_control
+[19.971s] Installing joy_to_cmd_vel script to /home/pi/robot_ws/install/mecanum_control/lib/mecanum_control
+[19.978s] writing list of installed files to '/home/pi/robot_ws/build/mecanum_control/install.log'
+[20.631s] Invoked command in '/home/pi/robot_ws/src/mecanum_control' returned '0': PYTHONPATH=/home/pi/robot_ws/build/mecanum_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/robot_ws/install/mecanum_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mecanum_control build --build-base /home/pi/robot_ws/build/mecanum_control/build install --record /home/pi/robot_ws/build/mecanum_control/install.log --single-version-externally-managed install_data

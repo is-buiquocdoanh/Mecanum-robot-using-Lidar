@@ -1,0 +1,22 @@
+[13.482s] Invoking command in '/home/pi/robot_ws/build/mecanum_control': PYTHONPATH=/home/pi/robot_ws/build/mecanum_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/robot_ws/install/mecanum_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/robot_ws/build/mecanum_control/build --no-deps symlink_data --force
+[19.426s] running develop
+[24.188s] running egg_info
+[24.189s] writing mecanum_control.egg-info/PKG-INFO
+[24.196s] writing dependency_links to mecanum_control.egg-info/dependency_links.txt
+[24.197s] writing entry points to mecanum_control.egg-info/entry_points.txt
+[24.202s] writing requirements to mecanum_control.egg-info/requires.txt
+[24.203s] writing top-level names to mecanum_control.egg-info/top_level.txt
+[24.221s] reading manifest file 'mecanum_control.egg-info/SOURCES.txt'
+[24.240s] writing manifest file 'mecanum_control.egg-info/SOURCES.txt'
+[24.261s] running build_ext
+[24.263s] Creating /home/pi/robot_ws/install/mecanum_control/lib/python3.10/site-packages/mecanum-control.egg-link (link to .)
+[24.273s] Installing esp32_serial_bridge script to /home/pi/robot_ws/install/mecanum_control/lib/mecanum_control
+[24.279s] Installing joy_to_cmd_vel script to /home/pi/robot_ws/install/mecanum_control/lib/mecanum_control
+[24.280s] 
+[24.284s] Installed /home/pi/robot_ws/build/mecanum_control
+[24.290s] running symlink_data
+[24.292s] symbolically linking /home/pi/robot_ws/build/mecanum_control/resource/mecanum_control -> /home/pi/robot_ws/install/mecanum_control/share/ament_index/resource_index/packages
+[24.302s] symbolically linking /home/pi/robot_ws/build/mecanum_control/package.xml -> /home/pi/robot_ws/install/mecanum_control/share/mecanum_control
+[24.313s] symbolically linking /home/pi/robot_ws/build/mecanum_control/launch/joystick_control.launch.py -> /home/pi/robot_ws/install/mecanum_control/share/mecanum_control/launch
+[24.321s] symbolically linking /home/pi/robot_ws/build/mecanum_control/launch/esp32_bridge.launch.py -> /home/pi/robot_ws/install/mecanum_control/share/mecanum_control/launch
+[24.603s] Invoked command in '/home/pi/robot_ws/build/mecanum_control' returned '0': PYTHONPATH=/home/pi/robot_ws/build/mecanum_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/robot_ws/install/mecanum_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/robot_ws/build/mecanum_control/build --no-deps symlink_data --force

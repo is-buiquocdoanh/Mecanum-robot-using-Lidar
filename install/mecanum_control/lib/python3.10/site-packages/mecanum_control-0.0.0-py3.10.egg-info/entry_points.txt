@@ -1,0 +1,4 @@
+[console_scripts]
+esp32_serial_bridge = mecanum_control.esp32_serial_bridge:main
+joy_to_cmd_vel = mecanum_control.joy_to_cmd_vel:main
+
